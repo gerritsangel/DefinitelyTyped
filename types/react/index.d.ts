@@ -2579,6 +2579,7 @@ declare namespace React {
         pre: DetailedHTMLFactory<HTMLAttributes<HTMLPreElement>, HTMLPreElement>;
         progress: DetailedHTMLFactory<ProgressHTMLAttributes<HTMLProgressElement>, HTMLProgressElement>;
         q: DetailedHTMLFactory<QuoteHTMLAttributes<HTMLQuoteElement>, HTMLQuoteElement>;
+        rb: DetailedHTMLFactory<HTMLAttributes<HTMLElement>, HTMLElement>;
         rp: DetailedHTMLFactory<HTMLAttributes<HTMLElement>, HTMLElement>;
         rt: DetailedHTMLFactory<HTMLAttributes<HTMLElement>, HTMLElement>;
         ruby: DetailedHTMLFactory<HTMLAttributes<HTMLElement>, HTMLElement>;
@@ -2912,6 +2913,7 @@ declare global {
             pre: React.DetailedHTMLProps<React.HTMLAttributes<HTMLPreElement>, HTMLPreElement>;
             progress: React.DetailedHTMLProps<React.ProgressHTMLAttributes<HTMLProgressElement>, HTMLProgressElement>;
             q: React.DetailedHTMLProps<React.QuoteHTMLAttributes<HTMLQuoteElement>, HTMLQuoteElement>;
+            rb: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
             rp: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
             rt: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
             ruby: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
